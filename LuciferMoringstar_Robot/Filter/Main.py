@@ -285,9 +285,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "help":
             buttons = [
                 [
-                    InlineKeyboardButton('🥂 𝚓𝚘𝚒𝚗 𝚌𝚑𝚊𝚗𝚗𝚎𝚕​ 🥂', url=f'{TUTORIAL}')
+                    InlineKeyboardButton('🍷 Jᴏɪɴ Cʜᴀɴɴᴇʟ​ 🍷', url=f'{TUTORIAL}')
                 ],
-                [   InlineKeyboardButton('♻️ 𝚓𝚘𝚒𝚗 𝚐𝚛𝚘𝚞𝚙​ ♻️', url="https://t.me/mh_request")
+                [   InlineKeyboardButton('😈 Jᴏɪɴ Gʀᴏᴜᴘ​ 😈', url="https://t.me/mh_request")
                 ]
                 ]
             await query.message.edit(text=f"{HELP}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -295,9 +295,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('🥂 𝚓𝚘𝚒𝚗 𝚌𝚑𝚊𝚗𝚗𝚎𝚕​ 🥂', url=f'{TUTORIAL}')
+                    InlineKeyboardButton('🍷 Jᴏɪɴ Cʜᴀɴɴᴇʟ​ 🍷', url=f'{TUTORIAL}')
                 ],
-                [   InlineKeyboardButton('♻️ 𝚓𝚘𝚒𝚗 𝚐𝚛𝚘𝚞𝚙​ ♻️', url="https://t.me/mh_request")
+                [   InlineKeyboardButton('😈 Jᴏɪɴ Gʀᴏᴜᴘ​ 😈', url="https://t.me/mh_request")
                 ]
                 ]
             await query.message.edit(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -320,9 +320,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🥂 𝚓𝚘𝚒𝚗 𝚌𝚑𝚊𝚗𝚗𝚎𝚕​ 🥂', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('🍷 Jᴏɪɴ Cʜᴀɴɴᴇʟ​ 🍷', url=f'{TUTORIAL}')
                     ],
-                    [   InlineKeyboardButton('♻️ 𝚓𝚘𝚒𝚗 𝚐𝚛𝚘𝚞𝚙​ ♻️', url="https://t.me/mh_request")
+                    [   InlineKeyboardButton('😈 Jᴏɪɴ Gʀᴏᴜᴘ​ 😈', url="https://t.me/mh_request")
                     ]
                     ]
                 
@@ -353,9 +353,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🥂 𝚓𝚘𝚒𝚗 𝚌𝚑𝚊𝚗𝚗𝚎𝚕​ 🥂', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('🍷 Jᴏɪɴ Cʜᴀɴɴᴇʟ​ 🍷', url=f'{TUTORIAL}')
                     ],
-                    [   InlineKeyboardButton('♻️ 𝚓𝚘𝚒𝚗 𝚐𝚛𝚘𝚞𝚙​ ♻️', url="https://t.me/mh_request")
+                    [   InlineKeyboardButton('😈 Jᴏɪɴ Gʀᴏᴜᴘ​ 😈', url="https://t.me/mh_request")
                     ]
                     ]
                 
