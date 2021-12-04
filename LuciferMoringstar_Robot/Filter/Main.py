@@ -166,7 +166,7 @@ async def group(client, message):
         )    
         buttons.append(
             [InlineKeyboardButton(text=f"📃 Pages 1/{data['total']}",callback_data="pages")],
-            [InlineKeyboardButton(text=Mᴏᴠɪᴇs Hᴏᴜsᴇ 8​ ⚡", url="https://t.me/movieshouse8")]
+            [InlineKeyboardButton(text="Mᴏᴠɪᴇs Hᴏᴜsᴇ 8​ ⚡", url="https://t.me/movieshouse8")]
         )
         poster=None
         if API_KEY:
