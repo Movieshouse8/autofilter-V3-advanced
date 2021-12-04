@@ -80,7 +80,7 @@ async def filter(client, message):
             buttons = btn
             buttons.append(
                 [InlineKeyboardButton(text="📃 Pages 1/1",callback_data="pages")],
-                [InlineKeyboardButton('Mᴏᴠɪᴇs Hᴏᴜsᴇ 8​ ⚡', url="https://t.me/movieshouse8")]
+                [InlineKeyboardButton(text="Mᴏᴠɪᴇs Hᴏᴜsᴇ 8​ ⚡", url="https://t.me/movieshouse8")]
             )
             poster=None
             if API_KEY:
